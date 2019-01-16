@@ -7,9 +7,6 @@ function outerFunction() {
     return innerVariable;
   }
 }
-JavaScript has first-class functions, meaning that we can pass them around with ease. When we call outerFunction(), the returned value is another function.
-
-Let's give it a try:
 
 var myScope = outerFunction();
  
