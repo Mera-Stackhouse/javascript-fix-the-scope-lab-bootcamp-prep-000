@@ -20,8 +20,7 @@ function add2(n) {
 }
 
 var funkyFunction = function() {
-  var x = 2
-  return function insideFunct() {
+  return function() {
     return "FUNKY!"
   }
 }
@@ -37,3 +36,19 @@ var funkyFunction = function() {
 var theFunk = funkyFunction()
 
 theFunk();
+
+
+function funkyFunction() {
+  var innerVariable = "I'm sort of a secret.";
+ 
+  return function() {
+    var inaccessible = "Nothing can touch me.";
+ 
+    return "Funky";
+  }
+}
+
+var theFunk = funkyFunction();
+
+
+console.log(theFunk())
