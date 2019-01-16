@@ -33,7 +33,7 @@ var funkyFunction = function() {
 //}
 //console.log(theFunk())
 
-var theFunk = funkyFunction()
+var inbetweenFunction = funkyFunction()
 
-theFunk()
+var theFunk = inbetweenFunction()
 
