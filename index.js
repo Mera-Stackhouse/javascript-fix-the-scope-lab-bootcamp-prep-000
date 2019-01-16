@@ -31,5 +31,6 @@ var funkyFunction = function() {
 theFunk = funkyFunction()
 
 console.log(funkyFunction())
+console.log(insideFunct())
 
 //console.log(theFunk())
