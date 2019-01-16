@@ -30,7 +30,8 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line
 theFunk = funkyFunction()
 
-console.log(funkyFunction())
-console.log(insideFunct())
+console.log(funkyFunction(
+  console.log(insideFunct())))
+//console.log(insideFunct())
 
 //console.log(theFunk())
