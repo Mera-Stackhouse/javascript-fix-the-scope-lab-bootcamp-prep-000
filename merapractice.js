@@ -13,6 +13,6 @@ var myScope = outerFunction();
 
 console.log(myScope)
 
-innerScope()
+//innerScope()
 
-myScope()
+//myScope()
