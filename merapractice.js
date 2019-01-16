@@ -9,10 +9,6 @@ function funkyFunction() {
 }
 
 var theFunk = funkyFunction();
- 
 
-//console.log(myScope)
-
-//console.log(innerScope())
 
 console.log(theFunk())
