@@ -1,4 +1,4 @@
-function outerFunction() {
+function funkyFunction() {
   var innerVariable = "I'm sort of a secret.";
  
   return function innerScope() {
@@ -8,7 +8,7 @@ function outerFunction() {
   }
 }
 
-var myScope = outerFunction();
+var myScope = funkyFunction();
  
 
 //console.log(myScope)
