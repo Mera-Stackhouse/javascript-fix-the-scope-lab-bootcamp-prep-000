@@ -8,11 +8,11 @@ function funkyFunction() {
   }
 }
 
-var myScope = funkyFunction();
+var theFunk = funkyFunction();
  
 
 //console.log(myScope)
 
 //console.log(innerScope())
 
-console.log(myScope())
+console.log(theFunk())
