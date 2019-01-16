@@ -11,8 +11,8 @@ function outerFunction() {
 var myScope = outerFunction();
  
 
-console.log(myScope)
+//console.log(myScope)
 
-//innerScope()
+console.log(innerScope())
 
 //myScope()
